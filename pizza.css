@@ -1,9 +1,13 @@
-ul {
+ul,ol {
     list-style-position: inside;
 }
 * {
-    text-align: center;
+    text-align: center;   
+    line-height: 150%;
 }
-ol {
-    list-style-position: inside;
+h1 {
+    text-decoration: double;
+}
+p {
+    font-weight: 700;
 }
