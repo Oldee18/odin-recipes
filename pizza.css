@@ -1,3 +1,6 @@
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
 ul,ol {
     list-style-position: inside;
 }
@@ -10,4 +13,10 @@ h1 {
 }
 p {
     font-weight: 700;
+}
+li {
+    text-decoration: dotted;
+}
+h5,h4 {
+    text-transform: capitalize;
 }
