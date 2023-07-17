@@ -1,9 +1,11 @@
-ul {
+ul,ol {
     list-style-position: inside;
 }
 * {
     text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 150%;
 }
-ol {
-    list-style-position: inside;
+h4,h5 {
+    text-transform: uppercase;
 }
