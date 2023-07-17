@@ -1,9 +1,24 @@
-ul {
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    line-height: 150%;
+}
+ul,ol {
     list-style-position: inside;
 }
-* {
+h4,h5 {
+    text-transform: capitalize;
+}
+h5 {
+    font-size: larger;
+}
+p {
     text-align: center;
 }
-ol {
-    list-style-position: inside;
+.build {
+    font-weight: 700;
+    font-style: oblique;
+}
+li {
+    font-style: italic;
 }
