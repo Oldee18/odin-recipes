@@ -1,9 +1,33 @@
 * {
     text-align: center;
-    
 }
 
 h1 {
     font-size: 70px;
     color: rgb(44, 61, 61);
+    margin-left: -950px;
+}
+a {
+    display: block;
+    font-size: 35px;
+}
+
+.lasagna {   
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 70px;
+    margin-left: 70px;
+    width: fit-content;
+}
+
+.banana {
+    margin-left: 320px;
+    margin-right: 0px;
+    margin-bottom: 70px;
+    width: fit-content;
+}
+
+.pizza {
+    margin-left: 650px;
+    width: fit-content;
 }
