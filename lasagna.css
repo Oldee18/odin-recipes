@@ -1,11 +1,81 @@
+body {
+    background-image: url(../odin-recipes/images/pizza.jpg);
+    background-size:auto;
+}
+.steps {
+    margin-left: 15px;
+    width: 300px;
+    margin-right: 0px;
+}
+.dir {
+    color: blue;
+}
 ul,ol {
     list-style-position: inside;
+    display: inline-block;
+    margin: fit-content;
+    padding: fit-content;
+}
+li {
+    margin-top: 5px;
+}
+.unordered {
+    display: block;
+}
+.directions {
+    border-style: double;
+    border-color: blue;
+    border-width: 5px;
+    font-size: 35px;
+    display: inline;
+    margin-left: 500px;
+    margin-bottom: 30px;
 }
 * {
-    text-align: center;
+    
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     line-height: 150%;
 }
 h4,h5 {
     text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.how {
+    display: inline;
+    width: fit-content;
+    margin-bottom: 20px;
+    margin-right: min-content;
+}
+.description {
+    text-align: center;
+}
+p {
+    display: block;
+    width: fit-content;
+    text-align: center;
+    display: inline-block;
+    border-color: orangered;
+    border-style: dashed;
+    margin-left: 500px;
+    padding-left: 5px;
+}
+.ingredients {
+    display: block;
+    border-style: groove;
+    border-color: darkcyan;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: fit-content;
+    margin-left: 400px;
+}
+.topborder {
+    display: inline-block;
+    background-color: orangered;
+    border-color: black;
+    border-style: inset;
+    padding: 5px;
+    margin: fit-content;
+    margin-left: 800px;
 }
