@@ -1,19 +1,26 @@
 * {
     font-family: 'Times New Roman', Times, serif;
+    
 }
 
 body {
-    background-image: url("./images/odin.jpg");
+    background-image: url("./images/odin2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
 }
 
 #title {
-    font-size: 85px;
-    text-align: center;
-    color: aqua;
+    margin-top: 50px;
+    font-size: 70px;
+    text-align: left;
+    color: aquamarine;
     
 }
 
 .container-recipes {
+    margin-top: 500px;
+    margin-bottom: 70px;
     text-align: center;
 }
 
