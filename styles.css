@@ -1,6 +1,6 @@
 * {
     font-family: 'Times New Roman', Times, serif;
-    outline: 2px solid red;
+   
 }
 
 body {
@@ -19,12 +19,15 @@ body {
 }
 
 .container-recipes {
+    border: 2px dotted aquamarine;
+    border-radius: 100px;
     margin: 500px 600px 70px;
     text-align: center;
+    
 }
 
 li {
-    margin: 15px 0 ;
+    margin: 15px 0px 35px;
     list-style-type: disc;
     list-style-position: inside;
 }
