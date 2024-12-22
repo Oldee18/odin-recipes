@@ -19,14 +19,18 @@ body {
 }
 
 .container-recipes {
+
     margin-top: 500px;
     margin-bottom: 70px;
+    margin-left: 700px;
+    margin-right: 500px;
     text-align: center;
 }
 
 li {
+    margin: 15px;
     list-style-type: disc;
-    list-style-position: inside; 
+    list-style-position: inside;
 }
 
 .recipes {
