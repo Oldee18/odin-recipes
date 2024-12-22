@@ -2,11 +2,15 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+body {
+    background-image: url("./images/odin.jpg");
+}
+
 #title {
     font-size: 85px;
     text-align: center;
     color: aqua;
-    background-color: blue;
+    
 }
 
 .container-recipes {
@@ -19,6 +23,6 @@ li {
 }
 
 .recipes {
-    color: aqua;
-    background-color: black;
+    color: aquamarine;
+    font-size: 30px;
 }
