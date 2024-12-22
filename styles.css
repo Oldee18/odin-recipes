@@ -22,3 +22,7 @@ li {
     color: aqua;
     background-color: black;
 }
+
+.background {
+    background-image: image(./images/odin.jpg);
+}
